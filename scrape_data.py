@@ -3,8 +3,8 @@ from praw.models import MoreComments
 
 # connect to reddit
 
-reddit = praw.Reddit(client_id='8n0q-yj901hEsQ',
-                     client_secret='UIowXBsxjC-Q2Q9lZ1gVS7960HQ',
+reddit = praw.Reddit(client_id='XXXXXX',
+                     client_secret='XXXXXX',
                      user_agent='Productivity_NLP')
 
 psychic = reddit.subreddit('psychic')
